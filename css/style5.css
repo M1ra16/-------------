@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  max-width: 1350px;
+  margin: auto;
+}
+
+.page {
+  min-height: 180px;
+  margin: 0 auto;
+  color: white;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#00ffd5), to(#a200ff));
+  background-image: linear-gradient(to top, #00ffd5, #a200ff);
+}
+
+.logo {
+  float: left;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.head {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 35px 5%;
+}
+
+.head li {
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+  list-style: none;
+  display: inline-block;
+  font-size: 12pt;
+  width: 100px;
+  text-align: center;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.head li:hover {
+  background-color: rgba(0, 255, 213, 0.4);
+}
+
+.head li ul {
+  position: absolute;
+  padding-left: 0;
+  width: 100px;
+  display: none;
+}
+
+.head li:hover ul {
+  display: block;
+}
+
+.head a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+.head li ul li {
+  margin-top: 6px;
+}
+
+.conection {
+  min-height: 500px;
+  margin: 0px auto;
+}
+
+.block1 {
+  max-width: 600px;
+  min-height: 400px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  margin-top: 3%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 255, 213, 0.6)), to(rgba(162, 0, 255, 0.5)));
+  background: linear-gradient(to top, rgba(0, 255, 213, 0.6), rgba(162, 0, 255, 0.5));
+  border-radius: 35px 0px;
+}
+
+.inputBox {
+  width: 100%;
+  float: left;
+  padding: 5px 45px 5px;
+}
+
+.inputBox input {
+  width: 100%;
+  min-height: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 11pt;
+  padding: 15px;
+  border: 5px solid #a200ff;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.form-check {
+  padding: 5px;
+}

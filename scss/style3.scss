@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+    max-width: 1350px;
+    margin: auto;
+}
+
+#topNubex{
+	position: fixed;
+	right: 35px;
+	bottom: 35px;
+}
+
+.page{
+    min-height: 650px;
+    margin: 0 auto;
+    color: white;
+    background-image: linear-gradient(to top, rgba(0, 255, 213, 0.6), rgba(162, 0, 255, 0.5)), url(https://traveltimes.ru/wp-content/uploads/2021/07/problemy-turistov.jpg);
+}
+
+.logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.head{
+    top:0; 
+    left: 0; 
+    right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 5%;
+}
+.head li{
+    transition: all 1s ease 0s;
+    list-style: none;
+    display: inline-block;
+    font-size: 12pt;
+    width: 100px;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+}    
+.head li:hover{
+    background-color: rgba(0, 255, 213, 0.4);
+}    
+.head li ul{
+    position: absolute;
+    padding-left: 0;
+    width: 100px;
+    display: none;
+}    
+.head li:hover ul{
+    display: block;
+}    
+.head a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 0;
+}    
+.head li ul li{
+    margin-top: 6px;
+}
+
+.name{
+    height: 85px;
+    position: absolute;
+    margin-top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 40pt;
+    text-align: center;
+    padding: 9px;
+    color: white;
+}
+
+
+.box-container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+  
+.box{
+    flex: 1 1 480px;
+    overflow: hidden;
+}
+  
+.box img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.content{
+    padding: 32px;
+  }
+  
+.content h3{
+    font-size: 16pt;
+    color:#333;
+  }
+  
+.content h3 i{
+    color: rgb(0, 255, 255);
+  }
+  
+.content p{
+    font-size: 14pt;
+    color:#666;
+    padding: 16px 0;
+  }
+  
+.stars i{
+    font-size: 14pt;
+    color: rgba(162, 0, 255);
+  }
+  
+.price{
+    font-size: 16pt;
+    color:#333;
+    padding-top: 16px;
+  }
+  
+.price span{
+    color:#666;
+    font-size: 14pt;
+    text-decoration: line-through;
+  }
+
+.contact{
+    height: 450px;
+    margin: 0 auto;
+    background-color: rgb(36, 36, 36);
+}
+.block4{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+}
+.block4 li{
+    list-style-type: none;
+}
+.social{
+    height: 100px;
+    margin: 0px auto;
+}
+.icons{
+    position: absolute;
+    left: 50%;
+    margin-left: 5px;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+.conection{
+    min-height: 700px;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+}
+.block1{
+    max-width: 600px;
+    min-height: 600px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 3%;
+    background: linear-gradient(to top, rgba(0, 255, 213, 0.6), rgba(162, 0, 255, 0.5));
+    border-radius: 35px 0px;
+}
+.inputBox{
+    width: 100%;
+    float: left;
+    padding: 5px 45px 5px;
+}
+.inputBox input{
+    width: 100%;
+    min-height: 20px;
+}
+.btn{
+    cursor: pointer;
+    font-size: 11pt;
+    padding: 15px;
+    margin-top: 83%;
+    border: 5px solid rgba(162, 0, 255);
+    border-radius: 10px;
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+}
