@@ -1,5 +1,6 @@
 let mail=document.querySelector('.name-js')
 let phone=document.querySelector('.phone-js')
+
 let elem1 = document.querySelector('.btn-js')
 
 function regi(){
