@@ -40,17 +40,17 @@
     font-size: 12pt;
     width: 100px;
     text-align: center;
-    margin-left: 5px;
     cursor: pointer;
 }    
 .head li:hover{
-    background-color: rgba(0, 255, 213, 0.4);
+    background-color: rgba(0, 255, 213);
 }    
 .head li ul{
     position: absolute;
     padding-left: 0;
     width: 100px;
     display: none;
+    background-color: rgba(162, 0, 255);
 }    
 .head li:hover ul{
     display: block;

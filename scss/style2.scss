@@ -19,7 +19,7 @@
     min-height: 600px;
     margin: 0 auto;
     color: white;
-    background: linear-gradient(to top, rgba(0, 255, 213, 0.6), rgba(162, 0, 255, 0.5));
+    background: linear-gradient(to top, rgba(0, 255, 213, 0.3), rgba(162, 0, 255, 0.6));
 }
 .bgvideo{
     position: absolute;
@@ -52,17 +52,17 @@
     font-size: 12pt;
     width: 100px;
     text-align: center;
-    margin-left: 5px;
     cursor: pointer;
 }    
 .head li:hover{
-    background-color: rgba(0, 255, 213, 0.4);
+    background-color: rgba(0, 255, 213);
 }    
 .head li ul{
     position: absolute;
     padding-left: 0;
     width: 100px;
     display: none;
+    background-color: rgba(162, 0, 255);
 }    
 .head li:hover ul{
     display: block;
@@ -135,7 +135,8 @@
     min-height: 380px;
     margin: 0 auto;
     padding: 35px;
-    outline: 10px solid rgba(0, 255, 213);
+    border-top: 10px solid rgba(0, 255, 213);
+    border-bottom: 10px solid rgba(0, 255, 213);
 }
 .text2{
     min-height: 270px;
@@ -192,7 +193,8 @@
     min-height: 1800px;
     margin: 0 auto;
     background-color: white;
-    outline: 10px solid rgba(0, 255, 213);
+    border-top: 10px solid rgba(0, 255, 213);
+    border-bottom: 10px solid rgba(0, 255, 213);
 }
 .block2{
     margin-top: 15px;
@@ -213,7 +215,7 @@
 .foto img{
     border: 10px solid rgba(0, 255, 213);
     padding: 15px;
-    background: rgb(183, 59, 255);
+    background: rgba(162, 0, 255);
     margin-left: 10px;
     margin-bottom: 10px;
 }
