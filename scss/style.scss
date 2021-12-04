@@ -10,7 +10,7 @@
 
 #topNubex{
 	position: fixed;
-	right: 35px;
+	right: 5%;
 	bottom: 35px;
 }
 
@@ -180,15 +180,19 @@ svg{
     margin: 0 auto;
     float: left;
     margin-top: 8%;
-    margin-left: 35%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 .form{
+    width: 100%;
     float: left;
     font-size: 12pt;
     text-transform: uppercase;
     cursor: pointer;
 }
 .form input[type=text1], .form input[type=text2], .form textarea{
+    width: 100%;
     float: left;
     padding: 8px 5px;
     margin-bottom: 10px;
