@@ -43,28 +43,28 @@
     list-style: none;
     display: inline-block;
     font-size: 12pt;
-    width: 100px;
+    min-width: 100px;
     text-align: center;
-    margin-left: 5px;
     cursor: pointer;
 }    
 .head li:hover{
-    background-color: rgba(0, 255, 213, 0.4);
+    background-color: rgba(0, 255, 213);
 }    
 .head li ul{
     position: absolute;
     padding-left: 0;
     width: 100px;
     display: none;
+    background-color: rgba(162, 0, 255);
 }    
 .head li:hover ul{
     display: block;
 }    
 .head a{
     display: block;
-    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 8px 0;
+    color: rgb(255, 255, 255);
 }    
 .head li ul li{
     margin-top: 6px;
