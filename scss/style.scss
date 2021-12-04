@@ -4,8 +4,8 @@
 }
 
 .all{
-    max-width: 1350px;
-    margin: auto;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 #topNubex{
@@ -18,7 +18,7 @@
     min-height: 650px;
     margin: 0 auto;
     color: white;
-    background-image: linear-gradient(to top, rgba(0, 255, 213, 0.6), rgba(162, 0, 255, 0.3)), url(https://wallbox.ru/resize/1920x1200/wallpapers/main2/201727/gory-alpy-na-prirode-franci-noc-zvezd.jpg);
+    background-image: linear-gradient(to top, rgba(0, 255, 213, 0.3), rgba(162, 0, 255, 0.6)), url(https://wallbox.ru/resize/1920x1200/wallpapers/main2/201727/gory-alpy-na-prirode-franci-noc-zvezd.jpg);
 }
 
 .logo{
@@ -28,6 +28,7 @@
 }
 
 .head{
+    margin: 0 auto;
     top:0; 
     left: 0; 
     right:0;
@@ -69,10 +70,16 @@
     margin-top: 6px;
 }
 
+.phone{
+    font-size: 14pt;
+}
+
 .name{
+    margin: 0 auto;
     position: absolute;
     margin-top: 10%;
-    margin-left: 35%;
+    left: 50%;
+    transform: translate(-50%);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -80,6 +87,7 @@
     align-items: center;
 }
 .name2{
+    margin: 0 auto;
     font-size: 20pt;
     text-align: center;
 }
@@ -94,28 +102,32 @@ svg{
     margin: 0 auto;
 }
 .text{
-    width: 500px;
+    margin: 0 auto;
+    max-width: 500px;
     float: right;
     text-align: center;
     margin-top: 15%;
-    margin-right: 50px;
+    margin-right: 5%;
     font-size: 14pt;
 }
 .art{
+    margin: 0 auto;
     object-fit: cover;
     max-height: 450px;
     max-width: 650px;
-    margin-top: 75px;
-    margin-left: 50px;
+    margin-top: 8%;
+    margin-left: 5%;
 }
 
 .serv{
     min-height: 1600px;
     margin: 0 auto;
-    outline: 10px solid rgba(0, 255, 213);
+    border-top: 10px solid rgba(0, 255, 213);
+    border-bottom: 10px solid rgba(0, 255, 213);
 }
 .text1{
-    height: 100px;
+    margin: 0 auto;
+    min-height: 100px;
     text-align: center;
     font-size: 14pt;
     padding: 30px;
@@ -127,7 +139,7 @@ svg{
 }
 .text2, .text4{
     min-height: 200px;
-    width: 500px;
+    max-width: 500px;
     float: right;
     text-align: center; 
     margin-right: 5%;
@@ -137,7 +149,7 @@ svg{
 }
 .text3{
     min-height: 200px;
-    width: 500px;
+    max-width: 500px;
     float: left;
     text-align: center;
     margin-left: 5%;
@@ -146,25 +158,25 @@ svg{
     border: 10px solid rgba(162, 0, 255, 0.5);
 }
 .art1, .art3{
-    height: 400px;
-    width: 550px;
+    max-height: 400px;
+    max-width: 550px;
     object-fit: cover;
     margin-left: 5%;
 }
 .art2{
     object-fit: cover;
-    height: 400px;
-    width: 550px;
+    max-height: 400px;
+    max-width: 550px;
     float: right;
     margin-right: 5%;
 }
 
 .help{
-    height: 450px;
+    min-height: 450px;
     margin: 0 auto;
 }
 .block3{
-    height: 450px;
+    min-height: 450px;
     margin: 0 auto;
     float: left;
     margin-top: 8%;
