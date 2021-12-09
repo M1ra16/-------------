@@ -8,11 +8,11 @@
     margin: 0 auto;
 }
 
-#topNubex{
+/*#topNubex{
 	position: fixed;
 	right: 5%;
 	bottom: 35px;
-}
+}*/
 
 .page{
     min-height: 650px;
@@ -73,26 +73,12 @@
 }
 
 .name{
-    margin: 0 auto;
-    position: absolute;
     margin-top: 10%;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .name2{
     margin: 0 auto;
     font-size: 20pt;
     text-align: center;
-}
-svg{
-    font-weight: bold;
-    max-width: 600px;
-    height: auto;
 }
 
 .us{
