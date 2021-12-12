@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
+$blue: rgba(0, 255, 213, 0.3);
+$violet: rgba(162, 0, 255, 0.6);
+$bl: rgb(0, 255, 213);
+$vio: rgb(162, 0, 255);
+$gray: #333;
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +26,7 @@
     min-height: 650px;
     margin: 0 auto;
     color: white;
-    background-image: linear-gradient(to top, rgba(0, 255, 213, 0.6), rgba(162, 0, 255, 0.5)), url(https://lookw.ru/9/945/1566941301-oboi-008.jpg);
+    background-image: linear-gradient(to top, $blue, $violet), url(https://lookw.ru/9/945/1566941301-oboi-008.jpg);
 }
 
 .logo{
@@ -49,14 +55,14 @@
     cursor: pointer;
 }    
 .head li:hover{
-    background-color: rgba(0, 255, 213);
+    background-color: $bl;
 }    
 .head li ul{
     position: absolute;
     padding-left: 0;
     width: 100px;
     display: none;
-    background-color: rgba(162, 0, 255);
+    background-color: $vio;
 }    
 .head li:hover ul{
     display: block;
@@ -124,21 +130,21 @@
 .content h3{
     margin-top: 50px;
     font-size: 20pt;
-    color: rgb(0, 255, 255);
+    color: $bl;
 }
 .btn{
     display: inline-block;
     margin-top: 16px;
-    background: rgba(162, 0, 255);
+    background: $vio;
     color: #fff;
     padding: 12px 48px;
-    border: 3px solid rgba(162, 0, 255);
+    border: 3px solid $vio;
     cursor: pointer;
     font-size: 20pt;
 }
 .btn:hover{
-    background:rgba(0, 255, 213, 0.4);
-    color: rgb(0, 255, 213);
+    background: $blue;
+    color: $bl;
 }
 
 .modal-body img{
@@ -148,7 +154,7 @@
 .contact{
     height: 450px;
     margin: 0 auto;
-    background-color: rgb(36, 36, 36);
+    background-color: $gray;
 }
 .block4{
     position: absolute;
