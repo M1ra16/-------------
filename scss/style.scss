@@ -1,3 +1,8 @@
+$blue: rgba(0, 255, 213, 0.3);
+$violet: rgba(162, 0, 255, 0.6);
+$bl: rgb(0, 255, 213);
+$vio: rgb(162, 0, 255);
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +23,7 @@
     min-height: 650px;
     margin: 0 auto;
     color: white;
-    background-image: linear-gradient(to top, rgba(0, 255, 213, 0.3), rgba(162, 0, 255, 0.6)), url(https://wallbox.ru/resize/1920x1200/wallpapers/main2/201727/gory-alpy-na-prirode-franci-noc-zvezd.jpg);
+    background-image: linear-gradient(to top, $blue, $violet), url(https://wallbox.ru/resize/1920x1200/wallpapers/main2/201727/gory-alpy-na-prirode-franci-noc-zvezd.jpg);
 }
 
 .logo{
@@ -46,14 +51,14 @@
     cursor: pointer;
 }    
 .head li:hover{
-    background-color: rgba(0, 255, 213);
+    background-color: $bl;
 }    
 .head li ul{
     position: absolute;
     padding-left: 0;
     width: 100px;
     display: none;
-    background-color: rgba(162, 0, 255);
+    background-color: $vio;
 }    
 .head li:hover ul{
     display: block;
@@ -62,7 +67,7 @@
     display: block;
     text-decoration: none;
     padding: 8px 0;
-    color: rgb(255, 255, 255);
+    color: white;
 }    
 .head li ul li{
     margin-top: 6px;
@@ -106,8 +111,8 @@
 .serv{
     min-height: 1700px;
     margin: 0 auto;
-    border-top: 10px solid rgba(0, 255, 213);
-    border-bottom: 10px solid rgba(0, 255, 213);
+    border-top: 10px solid $bl;
+    border-bottom: 10px solid $bl;
 }
 .text1{
     margin: 0 auto;
@@ -129,7 +134,7 @@
     margin-right: 5%;
     margin-top: 10%;
     font-size: 14pt;
-    border: 10px solid rgba(162, 0, 255, 0.5);
+    border: 10px solid $violet;
 }
 .text3{
     min-height: 200px;
@@ -139,7 +144,7 @@
     margin-left: 5%;
     margin-top: 10%;
     font-size: 14pt;
-    border: 10px solid rgba(162, 0, 255, 0.5);
+    border: 10px solid $violet;
 }
 .art1, .art3{
     max-height: 400px;
