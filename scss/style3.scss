@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
+$blue: rgba(0, 255, 213, 0.3);
+$violet: rgba(162, 0, 255, 0.6);
+$bl: rgb(0, 255, 213);
+$vio: rgb(162, 0, 255);
+$gray: #333;
+$ligray: #666;
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +27,7 @@
     min-height: 650px;
     margin: 0 auto;
     color: white;
-    background-image: linear-gradient(to top, rgba(0, 255, 213, 0.6), rgba(162, 0, 255, 0.5)), url(https://traveltimes.ru/wp-content/uploads/2021/07/problemy-turistov.jpg);
+    background-image: linear-gradient(to top, $blue, $violet), url(https://traveltimes.ru/wp-content/uploads/2021/07/problemy-turistov.jpg);
 }
 
 .logo{
@@ -49,14 +56,14 @@
     cursor: pointer;
 }    
 .head li:hover{
-    background-color: rgba(0, 255, 213);
+    background-color: $bl;
 }    
 .head li ul{
     position: absolute;
     padding-left: 0;
     width: 100px;
     display: none;
-    background-color: rgba(162, 0, 255);
+    background-color: $vio;
 }    
 .head li:hover ul{
     display: block;
@@ -116,28 +123,28 @@
   }
   
 .content h3 i{
-    color: rgb(0, 255, 255);
+    color: $bl;
   }
   
 .content p{
     font-size: 14pt;
-    color:#666;
+    color: $ligray;
     padding: 16px 0;
   }
   
 .stars i{
     font-size: 14pt;
-    color: rgba(162, 0, 255);
+    color: $vio;
   }
   
 .price{
     font-size: 16pt;
-    color:#333;
+    color: $gray;
     padding-top: 16px;
   }
   
 .price span{
-    color:#666;
+    color: $ligray;
     font-size: 14pt;
     text-decoration: line-through;
   }
@@ -145,7 +152,7 @@
 .contact{
     height: 450px;
     margin: 0 auto;
-    background-color: rgb(36, 36, 36);
+    background-color: $gray;
 }
 .block4{
     position: absolute;
@@ -184,7 +191,7 @@
     left: 50%;
     transform: translate(-50%);
     margin-top: 3%;
-    background: linear-gradient(to top, rgba(0, 255, 213, 0.6), rgba(162, 0, 255, 0.5));
+    background: linear-gradient(to top, $blue, $violet);
     border-radius: 35px 0px;
 }
 .inputBox{
@@ -201,7 +208,7 @@
     font-size: 11pt;
     padding: 15px;
     margin-top: 83%;
-    border: 5px solid rgba(162, 0, 255);
+    border: 5px solid $vio;
     border-radius: 10px;
     position: absolute; 
     left: 50%;
