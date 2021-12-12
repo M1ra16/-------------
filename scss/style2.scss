@@ -2,6 +2,7 @@ $blue: rgba(0, 255, 213, 0.3);
 $violet: rgba(162, 0, 255, 0.6);
 $bl: rgb(0, 255, 213);
 $vio: rgb(162, 0, 255);
+$gray: #333;
 
 *{
     margin: 0;
@@ -300,7 +301,7 @@ $vio: rgb(162, 0, 255);
 .contact{
     height: 450px;
     margin: 0 auto;
-    background-color: rgba(36,36,36);
+    background-color: $gray;
 }
 .block4{
     position: absolute;
