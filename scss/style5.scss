@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
+$blue: rgba(0, 255, 213, 0.3);
+$violet: rgba(162, 0, 255, 0.6);
+$bl: rgb(0, 255, 213);
+$vio: rgb(162, 0, 255);
+$gray: #333;
+
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +20,7 @@
     min-height: 180px;
     margin: 0 auto;
     color: white;
-    background-image: linear-gradient(to top, rgba(0, 255, 213), rgba(162, 0, 255));
+    background-image: linear-gradient(to top, $bl, $vio);
 }
 
 .logo{
@@ -43,14 +49,14 @@
     cursor: pointer;
 }    
 .head li:hover{
-    background-color: rgba(0, 255, 213);
+    background-color: $bl;
 }    
 .head li ul{
     position: absolute;
     padding-left: 0;
     width: 100px;
     display: none;
-    background-color: rgba(162, 0, 255);
+    background-color: $vio;
 }    
 .head li:hover ul{
     display: block;
@@ -80,7 +86,7 @@
     left: 50%;
     transform: translate(-50%);
     margin-top: 3%;
-    background: linear-gradient(to top, rgba(0, 255, 213, 0.6), rgba(162, 0, 255, 0.5));
+    background: linear-gradient(to top, $blue, $violet);
     border-radius: 35px 0px;
 }
 .inputBox{
