@@ -161,42 +161,6 @@ $gray: #333;
     margin-right: 5%;
 }
 
-.help{
-    min-height: 450px;
-    margin: 0 auto;
-}
-.block3{
-    min-height: 450px;
-    margin: 0 auto;
-    float: left;
-    margin-top: 8%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-}
-.form{
-    width: 100%;
-    float: left;
-    font-size: 12pt;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-.form input[type=text1], .form input[type=text2], .form textarea{
-    width: 100%;
-    float: left;
-    padding: 8px 5px;
-    margin-bottom: 10px;
-    font-size: 12pt;  
-    font-family: 'Ubuntu', 'Lato', sans-serif;
-}
-.form input[type=submit], .form input[type=reset]{
-    padding: 8px 5px;
-    cursor: pointer;
-    font-family: 'Ubuntu', 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 12pt;
-}
-
 .contact{
     height: 450px;
     margin: 0 auto;

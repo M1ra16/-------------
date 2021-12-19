@@ -121,11 +121,10 @@ $gray: #333;
     padding: 25px;
     border: 10px solid $violet;
 }
-
-.slider_cell{
+.carousel-inner{
     margin: 50px auto;
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     border: 10px solid transparent;
     border-image: linear-gradient($violet, #4f43fa, $bl);
     -moz-border-image: -moz-linear-gradient($violet, #4f43fa, $bl);
@@ -133,12 +132,8 @@ $gray: #333;
     border-image-slice: 1;
     overflow: hidden;
 }
-.slider{
-    width: 3500px;
-    display: flex;
-    position: relative;
-    left: 0px;
-    transition: all 1s ease 0s;
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: $bl;
 }
 
 .benefit{
