@@ -9,5 +9,5 @@ function regi(){
         window.location.href="index.html"
     }
     else {
-        alert("Незваный гость. Уходи!")}
+        alert("Ошибка")}
 }
